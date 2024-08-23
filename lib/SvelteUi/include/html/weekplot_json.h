@@ -1,0 +1,2 @@
+static const char WEEKPLOT_JSON[] PROGMEM = R"=="==({"i01":%.2f,"i02":%.2f,"i03":%.2f,"i04":%.2f,"i05":%.2f,"i06":%.2f,"i07":%.2f,"e01":%.2f,"e02":%.2f,"e03":%.2f,"e04":%.2f,"e05":%.2f,"e06":%.2f,"e07":%.2f})=="==";
+const int WEEKPLOT_JSON_LEN PROGMEM = 155;

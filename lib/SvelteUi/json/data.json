@@ -1,0 +1,91 @@
+{
+    "im" : %d,          // Maximum import power (for import Gauge)
+    "om" : %d,          // Maximum export power (for export Gauge)
+    "mf" : %d,          // Main fuse
+    "trc": %d,          // Current tier id
+    "trp" : "%s",       // Import price per kWh of current tier (cost)
+    "tn0": "%s",        // Tier 0 name
+    "tn1": "%s",        // Tier 1  name
+    "ti0": %.3f,        // Tier 0 Active import energy count
+    "ti1": %.3f,        // Tier 1 Active import energy count
+    "i" : %lu,          // Current active import power
+    "e" : %lu,          // Current active export power
+    "ri" : %lu,         // Current reactive import power
+    "re" : %lu,         // Current reactive export power
+    "ic" : %.3f,        // Active import energy count total
+    "ec" : %.3f,        // Active export energy count total
+    "ric" : %.3f,       // Rective import energy count total
+    "rec" : %.3f,       // Rective export energy count total
+    "frq" :%.3f,        // Frequency
+    "u1" : %.2f,        // Voltage L1
+    "u2" : %.2f,        // Voltage L2
+    "u3" : %.2f,        // Voltage L3
+    "i1" : %.2f,        // Current L1
+    "i2" : %.2f,        // Current L2
+    "i3" : %.2f,        // Current L3
+    "f" : %.2f,         // Power factor
+    "f1" : %.2f,        // Power factor L1
+    "f2" : %.2f,        // Power factor L2
+    "f3" : %.2f,        // Power factor L3
+    "va" : %lu,         // Apparent power
+    "rq1" : %lu,        // Reactive power Q1
+    "rq2" : %lu,        // Reactive power Q2
+    "rq3" : %lu,        // Reactive power Q3
+    "rq4" : %lu,        // Reactive power Q4
+    "v" : %.3f,         // VCC
+    "r" : %d,           // Rssi (Wifi quality)
+    "u" : %lu,          // Date/time of boot
+    "m" : %lu,          // Free memory (heap)
+    "em" : %d,          // ESP status
+    "hm" : %d,          // HAN status
+    "wm" : %d,          // Wifi ststus
+    "mm" : %d,          // MQTT status
+    "me" : %d,          // MQTT last error
+    "pi" : "%s",        // Export price per kWh
+    "py" : %lu,         // Last import meter counter value, set by user (kWh)
+    "pd" : "%s",        // Last import meter counter value description, set by user
+    "pl" : %.2f,        // Costs of total import meter counter - py
+    "pa" : %lu,         // Total import meter counter - py (kWh)
+    "pz" : %lu,         // Last export meter counter value, set by user (kWh)
+    "pg" : "%s",        // Last export meter counter value description, set by user
+    "pj" : %.2f,        // Costs of total export meter counter - pz
+    "pk" : %lu,         // Total import meter counter - pz (kWh)
+    "mt" : "%s",        // ESP Firmware version (not used)
+    "ds" : %d,          // Line disrtibution system (for VoltPlot), 1 = (L1-L2 ,L1-L3, L2-L3) 230V, 2 = (L1, L2, L3) 400V
+    "ea" : {            // Energy accounting
+        "x" : %.1f,     // Month max ?
+        "p" : [ %s ],   // Peaks ?
+        "t" : %d,       // Current threshold
+        "h" : {         // This Hour
+            "u" : %.2f, // Energy used kWh
+            "c" : %.2f, // Costs 
+            "p" : %.2f, // Energy exported
+            "i" : %.2f  // Income
+        },
+        "d" : {         // Today
+            "u" : %.2f, // Energy used kWh
+            "c" : %.2f, // Costs
+            "p" : %.2f, // Energy exported
+            "i" : %.2f  // Income
+        },
+        "w" : {         // This week
+            "u" : %.2f, // Energy used kWh
+            "c" : %.2f, // Costs
+            "p" : %.2f, // Energy exported
+            "i" : %.2f  // Income
+        },
+        "m" : {         // This month
+            "u" : %.2f, // Energy used kWh
+            "c" : %.2f, // Costs
+            "p" : %.2f, // Energy exported
+            "i" : %.2f  // Income
+        }
+    },
+    "pe" : %s,          // Is entsoe API activated (API not used)
+    "pr" : "%s",        // Price region for Entsoe API (not used)
+    "pc" : "%s",        // Currency
+    "he" : %d,          // Meter last error
+    "ee" : %d,          // Entsoe API last error (not used)
+    "c" : %lu,          // Current date/time
+    "a" : %s            // Is web security activated
+}

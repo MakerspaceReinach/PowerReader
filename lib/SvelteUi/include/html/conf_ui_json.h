@@ -1,0 +1,2 @@
+static const char CONF_UI_JSON[] PROGMEM = R"=="==("u":{"i":%d,"e":%d,"v":%d,"a":%d,"r":%d,"l":%d,"c":%d,"t":%d,"q":%d,"h":%d,"d":%d,"w":%d,"m":%d,"f":%d},)=="==";
+const int CONF_UI_JSON_LEN PROGMEM = 104;

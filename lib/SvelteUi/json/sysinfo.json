@@ -1,0 +1,62 @@
+{
+    "version": "%s",
+    "chip": "%s",
+    "chipId": "%s",
+    "mac": "%s",
+    "apmac": "%s",
+    "board": %d,
+    "vndcfg": %s,
+    "usrcfg": %s,
+    "fwconsent": %d,
+    "hostname": "%s",
+    "booting": %s,
+    "upgrading": %s,
+    "net": {
+        "ip": "%s",         // Local ip address of ESP device
+        "mask": "%s",       // Network mask
+        "gw": "%s",         // Gateway
+        "dns1": "%s",       // DNS1
+        "dns2": "%s"        // DNS2
+    },
+    "meter": {
+        "model": "%s",      // Meter model
+        "id": "%s",
+        "ser": "%s",        // Meter serial number
+        "hwr": "%s",
+        "fwr": "%s"         // Meter firmware
+    },
+    "ui":                   // User interface
+    {
+        "i": %d,            // Show import power gauge
+        "e": %d,            // Show export power gauge
+        "v": %d,            // Show voltage plot
+        "a": %d,            // Show current (A) plot
+        "r": %d,
+        "l": %d,
+        "c": %d,
+        "t": %d,
+        "q": %d,
+        "h": %d,            // Show hour plot
+        "d": %d,            // Show day plot
+        "w": %d,            // Show week plot
+        "m": %d,            // Show Month plot     
+        "f": %d             // Show frequency plot
+    },
+    "security": %d,
+    "boot_reason": %d,      // Boot reason
+    "ex_cause": %d,
+    "upgrade": 
+    {
+        "x": %d,
+        "e": %d,
+        "f": "%s",
+        "t": "%s"
+    },
+    "last_month": 
+    {
+        "u" : %.2f,
+        "c" : %.2f,
+        "p" : %.2f,
+        "i" : %.2f
+    }
+}

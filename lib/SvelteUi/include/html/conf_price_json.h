@@ -1,0 +1,2 @@
+static const char CONF_PRICE_JSON[] PROGMEM = R"=="==("p":{"e":%s,"t":"%s","r":"%s","c":"%s","m":%.3f,"n":["%s","%s","%s","%s","%s","%s","%s","%s"],"f":[%s,%s,%s,%s,%s,%s,%s,%s],"i":%s,"y":%lu,"d":"%s","z":%lu,"g":"%s"},)=="==";
+const int CONF_PRICE_JSON_LEN PROGMEM = 166;
